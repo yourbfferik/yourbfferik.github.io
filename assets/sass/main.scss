@@ -947,7 +947,9 @@
 		position: relative;
 		padding: 8em 0;
 		margin: 4em 0 0 0;
-
+		@media(max-width: 600px) {
+			background-size: cover;
+		}
 		header {
 			background-color: rgba(34, 30, 31, 0.98);
 			display: inline-block;
